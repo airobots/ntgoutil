@@ -9,12 +9,12 @@
 
 package shell
 
-import {
+import (
 	"io"
 	"io/ioutil"
 	"os"
 	"path"
-}
+)
 
 func CopyFile(src, dest string, specifiedMode ...os.FileMode) error {
 	var err error
